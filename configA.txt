@@ -18,11 +18,11 @@
   "BidUrlNonTelecom": "https://paimai.alltobid.com/bid/4e74867eea2a4ff2b0d2e663ebdc57dd/login.htm",
 
   "PartnerConfig": [
-	"https://gitee.com/lemonstar002/MPConfig/raw/master/partnerVIP.txt",
-	"https://gitee.com/lemonstar002/MPConfig/raw/master/partnerZG.txt",
-	"https://gitee.com/lemonstar002/MPConfig/raw/master/partnerMP.txt",
-	"https://gitee.com/lemonstar002/MPConfig/raw/master/partnerKYO.txt",
-	"https://gitee.com/lemonstar002/MPConfig/raw/master/partnerHJY.txt"
+	"https://raw.githubusercontent.com/regemail2011/MPConfig/master/partnerVIP.txt",
+	"https://raw.githubusercontent.com/regemail2011/MPConfig/master/partnerZG.txt",
+	"https://raw.githubusercontent.com/regemail2011/MPConfig/master/partnerMP.txt",
+	"https://raw.githubusercontent.com/regemail2011/MPConfig/master/partnerKYO.txt",
+	"https://raw.githubusercontent.com/regemail2011/MPConfig/master/partnerHJY.txt"
   ],
 
   "UserList": [
