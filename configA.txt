@@ -1,0 +1,255 @@
+﻿{ 
+  "ConfigParaList": {
+    "IsTcpModeOn": true,
+    "IsAutoFirstBid": true,
+    "IsHtmlLogon": true,
+    "IsAutoSubmitEnabled": true,
+    "ScreenOffsetX": 9,
+    "ScreenOffsetY": 0,
+    "IsLogonEnabled": true,
+    "IsDemoEnabled": true
+  },
+
+  "XXTEADecodeKey": "11f2d",
+  "TcpPayloadHeadLength":12,
+  "RedisServer": "localhost:6379",
+  "RedisPassword": "Abc123456",
+  "BidUrlTelecom": "http://demo.dspaipai.com/web/login.htm",
+  "BidUrlNonTelecom": "https://paimai.alltobid.com/bid/4e74867eea2a4ff2b0d2e663ebdc57dd/login.htm",
+
+  "PartnerConfig": [
+	"https://gitee.com/lemonstar002/MPConfig/raw/master/partnerVIP.txt",
+	"https://gitee.com/lemonstar002/MPConfig/raw/master/partnerZG.txt",
+	"https://gitee.com/lemonstar002/MPConfig/raw/master/partnerMP.txt",
+	"https://gitee.com/lemonstar002/MPConfig/raw/master/partnerKYO.txt",
+	"https://gitee.com/lemonstar002/MPConfig/raw/master/partnerHJY.txt"
+  ],
+
+  "UserList": [
+    {
+      "GUID": "00000000-0000-0000-0000-000000000000",
+      "TraderName": "代拍0",
+      "IsShowPassword": true,
+      "IsReadOnly": true,
+      "BidderNo": "00000000",
+      "BidderPass": "0000",
+      "BidderID": "000000000000000000",
+      "BidderName": "客户0",
+      "StrategyID": "A3",
+      "GroupName": "CS0"
+    },
+    {
+      "GUID": "00000000-0000-0000-0000-000000000001",
+      "TraderName": "代拍1",
+      "IsShowPassword": true,
+      "IsReadOnly": false,
+      "BidderNo": "00000001",
+      "BidderPass": "0001",
+      "BidderID": "000000000000000001",
+      "BidderName": "客户1",
+      "StrategyID": "A3",
+      "GroupName": "CS1",
+      "IsPublishPrice": true
+    },
+    {
+      "GUID": "20000000-0000-0000-0000-000000000002",
+      "TraderName": "代拍2",
+      "IsShowPassword": true,
+      "IsReadOnly": false,
+      "BidderNo": "20000002",
+      "BidderPass": "0002",
+      "BidderID": "000000000000000002",
+      "BidderName": "客户2",
+      "StrategyID": "A3",
+      "GroupName": "CS2",
+      "IsDevModeOn":true,
+      "IsPublishPrice": true
+    }
+  ],
+  "StrategyList": [
+    {
+      "ID": "A1",
+      "Description": "[45s+$800|58s]",
+      "ProbeStrategy": {
+        "Description": "伏击出价",
+        "DisplayDetail": "[禁用][40.0s+$500][$400|58.0s]",
+        "IsActive": false,
+        "TimeToRequest": 40.0,
+        "SpreadToAdd": 500,
+        "SpreadToSubmit": 300,
+        "SpreadToSubmitPostpone": 0,
+        "TimeToSubmit": 58.0,
+        "IsAutoSubmit": false
+      },
+      "FinalStrategy": {
+        "Description": "最后出价",
+        "DisplayDetail": "[启用][45.0s+$800][$400|58.5s]",
+        "IsActive": true,
+        "TimeToRequest": 45.5,
+        "SpreadToAdd": 800,
+        "SpreadToSubmit": 300,
+        "SpreadToSubmitPostpone": 0,
+        "TimeToSubmit": 58.5,
+        "IsAutoSubmit": true
+      }
+    },
+    {
+      "ID": "A2",
+      "Description": "[45s+$900|58s]",
+      "ProbeStrategy": {
+        "Description": "伏击出价",
+        "DisplayDetail": "[禁用][40.0s+$500][$400|58.0s]",
+        "IsActive": false,
+        "TimeToRequest": 40.0,
+        "SpreadToAdd": 500,
+        "SpreadToSubmit": 300,
+        "SpreadToSubmitPostpone": 0,
+        "TimeToSubmit": 58.0,
+        "IsAutoSubmit": false
+      },
+      "FinalStrategy": {
+        "Description": "最后出价",
+        "DisplayDetail": "[启用][45.0s+$900][$400|58.5s]",
+        "IsActive": true,
+        "TimeToRequest": 45.5,
+        "SpreadToAdd": 900,
+        "SpreadToSubmit": 300,
+        "SpreadToSubmitPostpone": 0,
+        "TimeToSubmit": 58.5,
+        "IsAutoSubmit": true
+      }
+    },
+    {
+      "ID": "A3",
+      "Description": "[45s+$1000|58s]",
+      "ProbeStrategy": {
+        "Description": "伏击出价",
+        "DisplayDetail": "[禁用][40.0s+$500][$400|58.0s]",
+        "IsActive": false,
+        "TimeToRequest": 40.0,
+        "SpreadToAdd": 500,
+        "SpreadToSubmit": 300,
+        "SpreadToSubmitPostpone": 0,
+        "TimeToSubmit": 58.0,
+        "IsAutoSubmit": false
+      },
+      "FinalStrategy": {
+        "Description": "最后出价",
+        "DisplayDetail": "[启用][45.6s+$1000][$300|58.4s]",
+        "IsActive": true,
+        "TimeToRequest": 45.6,
+        "SpreadToAdd": 1000,
+        "SpreadToSubmit": 300,
+        "SpreadToSubmitPostpone": 0,
+        "TimeToSubmit": 58.4,
+        "IsAutoSubmit": true
+      }
+    },
+    {
+      "ID": "A4",
+      "Description": "[45s+$1100|58s]",
+      "ProbeStrategy": {
+        "Description": "伏击出价",
+        "DisplayDetail": "[禁用][40.0s+$500][$400|58.0s]",
+        "IsActive": false,
+        "TimeToRequest": 40.0,
+        "SpreadToAdd": 500,
+        "SpreadToSubmit": 300,
+        "SpreadToSubmitPostpone": 0,
+        "TimeToSubmit": 58.0,
+        "IsAutoSubmit": false
+      },
+      "FinalStrategy": {
+        "Description": "最后出价",
+        "DisplayDetail": "[启用][45.0s+$1100][$400|58.5s]",
+        "IsActive": true,
+        "TimeToRequest": 45.5,
+        "SpreadToAdd": 1100,
+        "SpreadToSubmit": 300,
+        "SpreadToSubmitPostpone": 0,
+        "TimeToSubmit": 58.5,
+        "IsAutoSubmit": true
+      }
+    },
+    {
+      "ID": "B1",
+      "Description": "[48s+$700|58s]",
+      "ProbeStrategy": {
+        "Description": "伏击出价",
+        "DisplayDetail": "[禁用][40.0s+$500][$400|58.0s]",
+        "IsActive": false,
+        "TimeToRequest": 40.0,
+        "SpreadToAdd": 500,
+        "SpreadToSubmit": 400,
+        "SpreadToSubmitPostpone": 500,
+        "TimeToSubmit": 58.0,
+        "IsAutoSubmit": false
+      },
+      "FinalStrategy": {
+        "Description": "最后出价",
+        "DisplayDetail": "[启用][48.0s+$700][$300|58.5s]",
+        "IsActive": true,
+        "TimeToRequest": 48.0,
+        "SpreadToAdd": 700,
+        "SpreadToSubmit": 300,
+        "SpreadToSubmitPostpone": 0,
+        "TimeToSubmit": 58.5,
+        "IsAutoSubmit": true
+      }
+    },
+    {
+      "ID": "B2",
+      "Description": "[50s+$700|58s]",
+      "ProbeStrategy": {
+        "Description": "伏击出价",
+        "DisplayDetail": "[禁用][40.0s+$500][$400|58.0s]",
+        "IsActive": false,
+        "TimeToRequest": 40.0,
+        "SpreadToAdd": 500,
+        "SpreadToSubmit": 400,
+        "SpreadToSubmitPostpone": 500,
+        "TimeToSubmit": 58.0,
+        "IsAutoSubmit": false
+      },
+      "FinalStrategy": {
+        "Description": "最后出价",
+        "DisplayDetail": "[启用][50.0s+$700][$400|58.5s]",
+        "IsActive": true,
+        "TimeToRequest": 50.0,
+        "SpreadToAdd": 700,
+        "SpreadToSubmit": 400,
+        "SpreadToSubmitPostpone": 500,
+        "TimeToSubmit": 58.5,
+        "IsAutoSubmit": true
+      }
+    },
+    {
+      "ID": "B3",
+      "Description": "[50s+$800|58s]",
+      "ProbeStrategy": {
+        "Description": "伏击出价",
+        "DisplayDetail": "[禁用][40.0s+$500][$400|58.0s]",
+        "IsActive": false,
+        "TimeToRequest": 40.0,
+        "SpreadToAdd": 500,
+        "SpreadToSubmit": 400,
+        "SpreadToSubmitPostpone": 500,
+        "TimeToSubmit": 58.0,
+        "IsAutoSubmit": false
+      },
+      "FinalStrategy": {
+        "Description": "最后出价",
+        "DisplayDetail": "[启用][50.0s+$800][$400|58.5s]",
+        "IsActive": true,
+        "TimeToRequest": 50.0,
+        "SpreadToAdd": 800,
+        "SpreadToSubmit": 400,
+        "SpreadToSubmitPostpone": 500,
+        "TimeToSubmit": 58.5,
+        "IsAutoSubmit": true
+      }
+    }
+  ]
+
+
+}

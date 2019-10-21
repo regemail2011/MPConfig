@@ -1,0 +1,47 @@
+﻿{
+  "UserList": [
+    {
+      "GUID": "AAD3D1F7-700F-4219-8E91-01EA4E84F608",
+      "TraderName": "KYO拍手1",
+      "IsShowPassword": true,
+      "IsReadOnly": false,
+      "BidderNo": "55638860",
+      "BidderPass": "7876",
+      "BidderID": null,
+      "BidderName": "潘晴",
+      "StrategyID": "A3",
+      "GroupName": "KYO",
+      "IsDevModeOn": false,
+      "IsPublishPrice": false
+    },
+    {
+      "GUID": "EB3C93AA-8C13-4521-BD38-3AFEF2409195",
+      "TraderName": "KYO拍手2",
+      "IsShowPassword": true,
+      "IsReadOnly": false,
+      "BidderNo": "55638276",
+      "BidderPass": "6593",
+      "BidderID": null,
+      "BidderName": "陆鸿俊",
+      "StrategyID": "A4",
+      "GroupName": "KYO",
+      "IsDevModeOn": false,
+      "IsPublishPrice": false
+    },
+    {
+      "GUID": "94198FB7-FEDD-4690-8CCA-66E9C6FABE6F",
+      "TraderName": "KYO拍手3",
+      "IsShowPassword": true,
+      "IsReadOnly": false,
+      "BidderNo": "55642108",
+      "BidderPass": "2543",
+      "BidderID": null,
+      "BidderName": "贺祎",
+      "StrategyID": "B1",
+      "GroupName": "KYO",
+      "IsDevModeOn": false,
+      "IsPublishPrice": false
+    }
+  ],
+  "StrategyList": []
+}
